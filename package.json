@@ -1,0 +1,38 @@
+{
+  "name": "google-appscript-mcp-server-improved",
+  "version": "1.1.0",
+  "description": "Enhanced Google Apps Script MCP Server with OAuth fixes and better error handling",
+  "main": "mcpServer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mcpServer.js",
+    "setup-oauth": "node oauth-setup.js",
+    "test-oauth": "node test-oauth.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-apps-script",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "automation"
+  ],
+  "author": "mohalmah (original), Seth Redmore (improvements)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redmorestudio/google-appscript-mcp-server-improved.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redmorestudio/google-appscript-mcp-server-improved/issues"
+  },
+  "homepage": "https://github.com/redmorestudio/google-appscript-mcp-server-improved#readme"
+}
